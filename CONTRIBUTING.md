@@ -71,4 +71,4 @@ When you're finished with the changes, create a pull request, also known as a PR
 
 Congratulations :tada::tada: The Codinasion team thanks you :sparkles:
 
-Once your PR is merged, your contributions will be publicly visible on the [Codinasion](https://codinasion.vercel.app)
+Once your PR is merged, your contributions will be publicly visible on the [codinasion.vercel.app](https://codinasion.vercel.app)
