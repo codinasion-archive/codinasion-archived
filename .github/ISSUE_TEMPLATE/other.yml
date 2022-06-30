@@ -1,11 +1,13 @@
 name: Other
 description: Use this for any other issues. Please do NOT create blank issues
-labels: ["🚦 status: awaiting triage"]
+labels: ["triage"]
 body:
   - type: markdown
     attributes:
       value: |
-        **Hubbers!!** This is an open source repo.
+        **Hey Geek !!!** 
+
+        This is an open source repository.
 
         * For questions, ask in [Discussions](https://github.com/codinasion/codinasion/discussions).
         * Check to make sure someone hasn't already opened a similar [issue](https://github.com/codinasion/codinasion/issues).
