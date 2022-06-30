@@ -1,4 +1,4 @@
-export default function formatTag(tag) {
+function formatTag(tag) {
   if (tag === "c" || tag === "C") {
     return {
       tag: "c",
