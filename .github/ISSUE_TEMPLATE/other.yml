@@ -1,6 +1,5 @@
 name: Other
 description: Use this for any other issues. Please do NOT create blank issues
-labels: ["triage"]
 body:
   - type: markdown
     attributes:
