@@ -61,7 +61,14 @@ export default function formatTag(tag) {
       label: "PHP",
     };
   }
-  if (tag === "julia" || tag === "Julia" || tag === "JULIA") {
+  if (
+    tag === "julia" ||
+    tag === "Julia" ||
+    tag === "JULIA" ||
+    tag === "jl" ||
+    tag === "JL" ||
+    tag === "Jl"
+  ) {
     return {
       tag: "julia",
       label: "Julia",
