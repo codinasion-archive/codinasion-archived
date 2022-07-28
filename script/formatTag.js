@@ -1,3 +1,7 @@
+function formatString(str) {
+  return str[0].toUpperCase() + str.slice(1);
+}
+
 export default function formatTag(tag) {
   if (tag === "c" || tag === "C") {
     return {
@@ -88,7 +92,7 @@ export default function formatTag(tag) {
     };
   }
   return {
-    tag: tag,
-    label: tag,
+    tag: tag.toLowerCase(),
+    label: formatString(tag),
   };
 }
