@@ -91,6 +91,37 @@ export default function formatTag(tag) {
       label: "Rust",
     };
   }
+  if (
+    tag === "dart" ||
+    tag === "Dart" ||
+    tag === "DART" ||
+    tag === "dartlang" ||
+    tag === "Dartlang"
+  ) {
+    return {
+      tag: "dart",
+      label: "Dart",
+    };
+  }
+  if (tag === "swift" || tag === "Swift" || tag === "SWIFT") {
+    return {
+      tag: "swift",
+      label: "Swift",
+    };
+  }
+  if (
+    tag === "kotlin" ||
+    tag === "Kotlin" ||
+    tag === "KOTLIN" ||
+    tag === "kt" ||
+    tag === "KT" ||
+    tag === "Kt"
+  ) {
+    return {
+      tag: "kotlin",
+      label: "Kotlin",
+    };
+  }
   return {
     tag: tag.toLowerCase(),
     label: formatString(tag),
